@@ -5,7 +5,7 @@ import java.util.*;
 
 public class SpotifyDataLoggerSubmission {
 
-    private static final int READ_LIMIT = 140 * 1024; // 140MB — must be large enough
+    private static final int READ_LIMIT = 140 * 1024;
     private static final BufferedReader csvReader;
     private static final String headerLine;
 
